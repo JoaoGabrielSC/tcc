@@ -14,7 +14,7 @@ def get_db():
         yield db
     finally:
         db.close()
-
+        
 crud = ControllerService()
 
 @app.get("/objects/{obj_id}", response_model=schema.ObjectVariables)
