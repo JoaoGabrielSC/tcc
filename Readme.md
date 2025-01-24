@@ -27,5 +27,7 @@ make install
 
 ### 3. Adicionar um Novo Pacote
 ```bash
-make install
+make install-package package=<nome_do_pacote>
+# exemplo
+make install-package package=fastapi
 ```

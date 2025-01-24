@@ -24,10 +24,6 @@ install-package:
 	@echo "installing $(package)"
 	@pip install $(package) && pip freeze | grep $(package) >> requirements.txt
 
-install-models:
-	@echo "Installing models"
-	@cd services/database && pip install --no-cache-dir .
-
 add-at-requirements:
 	@echo "Adding package to requirements"
 	$(pip freeze | grep $(package) >> requirements.txt)
