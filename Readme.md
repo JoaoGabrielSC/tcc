@@ -1,4 +1,4 @@
-# Projeto em Python com Makefile
+# Projeto de Graduação
 
 Este projeto utiliza `Makefile` para facilitar a execução de comandos comuns, como instalação de dependências, execução do servidor e gerenciamento de pacotes Python.
 
